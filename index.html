@@ -1,38 +1,122 @@
 <!DOCTYPE html>
-<html lang="en"> <!-- Here HTML tag is opening-->
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> This is my first Web page</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shkurina - QA Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
 
-        <link rel="stylesheet" href="css/style.css">
+<body>
+    <div id="page_wrapper">
 
-    </head>
+        <header>
+            <div class="logo">TravelFolks</div>
+            <nav class="menu">
+                <ul>
+                    <li>About us</li>
+                    <li>Book</li>
+                    <li>FAQs</li>
+                </ul>
+            </nav>
+            <button>Contact us</button>
+        </header>
 
-    <body>
-        <h1 style="color: orange">
-            Orange
-        </h1>
+        <main>
 
-        <p>
-            This is paragraph!
-            This is paragraph!
-            This is paragraph!
-            This is paragraph!
-            This is paragraph!
-        </p>
+          <section id="banner-wrapper">
+          <div class="banner">
+            <img src="travel.webp" alt="Travel">
+          </div>
+          
+          <div class="intro">
+            <h1>TravelFolks Tour Agency</h1>
+            <p>Explore the world with us - travel made easy and unforgettable!</p>
+            <button>Let's get in touch</button>
+          </div>
+          </section>
 
-        <ul>
-            <li>
-                Apples
-            </li>
-            <li>
-                Pears
-            </li>
+          <section id="my-works">
+            <h2>Our destinations</h2>
+            <div class="works-container">
 
-        </ul>
+              <div class="work-card">
+              <img src="1.jpg" alt="France">
+              <h3>France</h3>
+              <p>Elegance and culture</p>
+              </div>
 
-        <a href="http://google.com"> This is a link</a>
-    </body>
+              <div class="work-card">
+              <img src="2.jpg" alt="USA">
+              <h3>The USA</h3>
+              <p>Diversity and scale</p>
+              </div>
+
+              <div class="work-card">
+              <img src="3.webp" alt="Sri Lanka">
+              <h3>Sri Lanka</h3>
+              <p>Traditions and nature</p>
+              </div>
+
+            </div>
+          </section>
+
+          <section id="other-destinations">
+            <h2>Other popular destinations</h2>
+            <div class="name">
+                <div class="description">
+                    <h3>Germany</h3>
+                    <span>1</span>
+                </div>
+                <p>A land of castles, history, and cutting-edge innovation</p>
+            </div>
+            <div class="name">
+                <div class="description">
+                    <h3>Netherlands</h3>
+                    <span>2</span>
+                </div>
+                <p>Canals, tulips, and a vibrant artistic heritage</p>
+            </div>
+            <div class="name">
+                <div class="description">
+                    <h3>China</h3>
+                    <span>3</span>
+                </div>
+                <p>Ancient wonders meet futuristic cities</p>
+            </div>
+            <div class="name">
+                <div class="description">
+                    <h3>India</h3>
+                    <span>4</span>
+                </div>
+                <p>A colorful blend of culture, spirituality, and tradition</p>
+            </div>
+        </section>
+
+        <section id="contact">
+          <h2>Get in touch!</h2>
+          <p>Fill out the form to send us a message</p>
+          <form>
+              <div class="input-group">
+                  <input type="text" placeholder="your name" required="">
+                  <input type="email" placeholder="your email" required="">
+              </div>
+              <textarea placeholder="message" required=""></textarea>
+              <button type="submit">Let's Get In Touch</button>
+          </form>
+      </section>
+        </main>
+
+        <footer>
+          <p>TravelFolks</p>
+          <div class="social-links">
+              <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+              <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+              <a href="https://web.telegram.org/" target="_blank">Telegram</a>
+          </div>
+      </footer>
+    </div>
+</body>
+
 </html>
-<!-- Comment-->

@@ -1,0 +1,350 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+ 
+/*this is CSS reset to clear out default browser styles */
+
+
+/* styles for our website starts here */
+
+body {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    background-color:lightsalmon;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#page_wrapper {
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 1040px;
+    height: fit-content;
+    background-color: cadetblue;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-family: cursive;
+}
+
+.banner img {
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 1040px;
+    height: 400px;
+    background-size: contain;
+    margin: 41px auto 61px auto;
+    border-radius: 22px;
+}
+
+.logo {
+    font-size: 27px;
+    font-weight: bold;
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 21px;
+    font-size: 20px;
+}
+
+nav ul li {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+button {
+    background-color:bisque;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+h1 {
+    text-wrap: balance;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 1px;
+}
+
+p {
+    text-wrap: pretty;
+    font-size: 20px;
+    margin: 1px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+#banner-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}    
+
+#image-box {
+    gap: 80px;
+    padding: 40px 40px;
+    border-radius: 14px;
+}
+
+.info {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    row-gap: 80px;
+    justify-content: space-between;
+    width: 50%;
+    padding: 60px;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+#page2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 40px;
+    gap: 80px; 
+    column-gap: 20px;
+    justify-content: space-between;
+}
+
+.work-card {
+    background-color:bisque; 
+    border-radius: 15px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.work-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2;
+    margin-bottom: 20px;
+}
+
+#my-works {
+    text-align: center;
+    margin: 80px 0;
+    border-radius: 20px 20px 0 0;
+}
+
+#my-works h2 {
+    margin-bottom: 40px;
+    font-family: cursive;
+    font-size: 32px;
+}
+
+.works-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+
+#other-destinations {
+    background-color: brown;
+    padding: 60px 120px;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+}
+
+.name {
+    margin: 20px auto;
+    padding-bottom: 20px;
+    width: 100%;
+    max-width: 1040px;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+#other-destinations h3 {
+    font-size: 44px;
+    border-bottom: 2px black;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.name p {
+    font-size: 18px;
+    color:black;
+    font-weight: 700;
+    text-align: left;
+    border-top: 2px solid black;
+    padding-top: 24px;
+}
+
+#other-destinations {
+    background-color: bisque;
+}
+
+.name span {
+    width: 50px;
+    height: 50px;
+    display: flex; /* Центрирование через flexbox */
+    justify-content: center; /* Выравнивание по горизонтали */
+    align-items: center; /* Выравнивание по вертикали */
+    border-radius: 50%; /* Круг */
+    color: black;
+    font-size: 22px;
+    border: 2px solid black;
+    padding: 1px 1px;
+}
+
+#contact {
+        background-color:teal;
+        color:black;
+        padding: 60px 0;
+        text-align: center;
+        border-radius: 20px 20px 0 0;
+        margin: -20px 0 0px 0;
+}
+
+#contact h2 {
+    font-size: 56px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+#contact p {
+    margin-bottom: 30px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact .input-group {
+    display: flex;
+}
+
+#contact .input-group input {
+    flex: 1;
+}
+
+#contact textarea {
+    resize: vertical;
+}
+
+#contact button {
+    background: bisque;
+    border: 2px solid black;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    max-width: 207px;
+    align-self: center;
+}
+
+footer {
+    background-color: cadetblue;
+    color: black;
+    font-weight: bold;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 40px 120px;
+}
+
+footer .social-links a {
+    color: black;
+    margin: 0 10px;
+    text-decoration: none;
+    padding: 0 0 1px 0;
+    border-bottom: 1px solid black;
+}
+
+
+
+
